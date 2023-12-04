@@ -1,0 +1,104 @@
+/* 
+.headertest{
+    background-color: black;
+    color: red;
+}
+
+.footertest{
+    background-color: green;
+    color: white
+    
+    
+}
+
+#one{
+        font-size: 50px;
+        color: red
+}; */
+
+.two{
+
+color: #fff;
+background-color: black;
+text-align: center;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+   
+    flex-wrap: wrap;
+    padding: 14px;
+
+}
+
+.movie{
+    color: blue;
+    text-align: center;
+    background-color: #c0adad;
+    border: 1px solid black;
+    padding: 3px;
+    width: 23%;
+    margin-top: 20px;
+}
+
+.movie img{
+    height: 200px;
+    width: 100%;
+}
+
+/* usestate */
+
+.three{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    height: 90vh;
+}
+.four{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.btn{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-evenly;
+    /* padding: 10px; */
+    margin: 20px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+}
+.text{
+    font-size: 40px;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 24px;
+    width: 100%;
+}
+
+.data-val{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    padding: 15px ;
+    background-color:#fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+/*  */
+
+.data1{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
