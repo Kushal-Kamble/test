@@ -27,6 +27,9 @@ function App() {
 
       <Student name="timepass" age={10} /> */}
 
+      <h1>my first commit</h1>
+      <h1>my Second commit</h1>
+
        
       
         
