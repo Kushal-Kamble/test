@@ -17,7 +17,7 @@
 import React from 'react'
 
 const Home = () => {
-  return <div className="element">This is Home page</div>;
+  return <div className="element"><h1>Ye home page hai bhaisaaab </h1></div>;
 };
 export default Home;
 

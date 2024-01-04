@@ -12,6 +12,11 @@ import React from 'react'
 // export default About
 
 const About = () => {
-  return <div className="element"> This is about page</div>;
+  return <div className="element">Ye about page hai bhawa
+
+  <h1>about page</h1>
+  
+  </div>;
+  
 };
 export default About;

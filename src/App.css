@@ -102,3 +102,14 @@ text-align: center;
     width: 100%;
     justify-content: space-between;
 }
+
+.header1{
+    display: flex;
+
+    
+}
+
+.header1 ,h1{
+    padding: 5px;
+    margin: 10px;
+}

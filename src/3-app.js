@@ -4,7 +4,7 @@ import React, { useState } from "react";
 
 function App() {
 
-  const [num, setNum] = useState(0); // array destrunpmcring
+  const [num, setNum] = useState(0); // array desturing
 
   function inc() {
     setNum(num + 1);

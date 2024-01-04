@@ -1,6 +1,6 @@
 
 
-// const Movies = ({img, title, year}) => {
+// const Movies = ({img, title, year}) => {  // object desdructuring
 //   return (
 //     <div className="movie">
 //         <h1>movies</h1>

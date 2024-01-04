@@ -1,112 +1,56 @@
+
+// import TextField from "@mui/material/TextField";
+// import Button from "@mui/material/Button";
+// import Stack from "@mui/material/Stack";
+// import AddIcon from '@mui/icons-material/Add';
+
+// import Field from "./components/Header-5";
+
+import Salmankhan from "./components/Nav";
+import Home from "./components/Home";
+import Contact from "./components/Contact";
+import About from "./components/About";
+import Gallary from "./components/Gallary";
+
 import "./App.css";
 
-import Headerr from "./components/Headerr-4";
-
-import Movies from "./components/Movies";
-
-import demo from "./components/movies.json";
 
 
+// import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  
+} from "react-router-dom";
 
 
 function App() {
-
-  // let login = false;
-
-  // if(login == false){
-  //   return <h1>ja me nahi dikhaunga</h1>
-  // }
-
-  
- 
   return (
-
-    
-
-    
-    <div className="container kushal">
-      <div className="row ">
-
-      {/* ?   => agar ye condition false hai to ky dekhna hai ye likha aana chahiye */}
-      {/* {
-         login == false ? <Headerr/>  : <div style={{color: "red"}}>Dekh le bhai true hai</div>
-      } */}
-
-
-     {/* {
-       (() => {
-
-        if(login) {
-          return <Headerr/>
-        }else{
-          return <div style={{color: "red"}}>Dekh mat lena</div>
-        }
-        
-
-       })()
- 
-     } */}
-      <Headerr/>
-
-       <div className='main'>
-
-        {
-          demo.map((element, index) => {
-
-            return(
-
-
-            <Movies 
-              key={index}
-              title={element.Title}
-              year={element.Year}
-              img={element.Poster}
-
-            />
-
-            )
-
-          })
-        }
-
-        
-
-
-       </div>
-
-        
-
+    <Router>
        
-      
-        
+      <div className="container ">
+        <div className="row">
+        <Salmankhan/>
        
+          <div className="two">
+            {/* <h1>Dom manipulation</h1> */}
+            <Routes>
+              {/* home */}
+              <Route path="/" element={<Home />} />
+              {/* about us */}
+              <Route path="/about" element={<About />} />
+              {/* contact us */}
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/gallary" element={<Gallary />} />
+            </Routes>
+          </div>
+        </div>
       </div>
-    </div>
-
-
-
-
-    
-      
-    
+    </Router>
   );
 }
 
 export default App;
-
-
-// const obj = {name : 'kushal', age : 25}
-// undefined
-// obj
-// {name: 'kushal', age: 25}
-// obj.name
-// 'kushal'
-// obj.age
-// 25
-// const {name, age} = obj
-// undefined
-// name
-// 'kushal'
-// age
-// 25
